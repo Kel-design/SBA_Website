@@ -12,4 +12,4 @@ SBA 307 &amp; 308
 
 <h1>Run the Application</h1>
 
-<p>To run the application locally, please download all file from the .zip folder and run with your preferred Java IDE.</p>
+<p>To run the application locally, please download all files from the .zip folder and run with your preferred Java IDE.</p>
