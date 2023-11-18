@@ -1,0 +1,21 @@
+@charset "ISO-8859-1";
+
+.videos {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 0.5rem;
+    padding: 0.5rem;
+    border: 5px solid black;
+    justify-content: center;
+    background-color: black;
+}
+.video {
+    min-height: 6rem;
+    border: 5px solid black;
+}
+.video:nth-child(4n),
+.video:nth-child(5n),
+.video:nth-child(6n) {
+    min-height: 3rem;
+    border: 5px solid black;
+}

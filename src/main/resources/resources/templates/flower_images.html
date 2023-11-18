@@ -1,0 +1,53 @@
+<!doctype html>
+<title>Example</title>
+
+<style>
+	.grid {
+		display: grid;
+		grid-template-columns: repeat(5, 1fr);
+		grid-gap: 5px;
+		align-items: start;
+		justify-items: center;
+	}
+
+	.grid img {
+		max-width: 100%;
+	}
+
+	.grid img:nth-child(2) {
+		grid-column: span 3;
+		grid-row: span 3;
+	}
+
+	h1 {
+		text-align: center;
+		font-family: Arial, Helvetica, sans-serif;
+	}
+</style>
+
+<body>
+	<h1>
+		Flower Images
+	</h1>
+
+	<a style="text-align: left;" href="../templates/home.html">Go Home</a>
+	
+	<main class="grid">
+		<img src="../images/cherry_blossoms.jpg" alt="Cherry Blossom image">
+		<img src="../images/lilacs.jpg" alt="Lilacs Image">
+		<img src="../images/lily.jpg" alt="Lily Image">
+		<img src="../images/peonies.jpg" alt="Peonies Image">
+		<img src="../images/cone_type.jpg" alt="Purple Flowers Image">
+		<img src="../images/sunflowers.jpg" alt="Sunflowers Image">
+		<img src="../images/tulips.jpg" alt="Tulips Image">
+		<img src="../images/blue_cool_flowers.jpg" alt="Blue Flowers Image">
+		<img src="../images/golden.jpg" alt="Golden Flowers Image">
+		<img src="../images/purples.jpg" alt="Purple Flowers Image">
+		<img src="../images/blue_wildflowers.jpg" alt="Blue Wildflowers Image">
+		<img src="../images/dusk_flowers.jpg" alt="Flowers At Dusk Image">
+
+	</main>
+
+</body>
+
+</html>
